@@ -1,5 +1,15 @@
 # Vantair — Decisions
 
+1. Why this ingestion strategy over the obvious alternative you rejected?
+I went with this approach because it was easier to implement and gave me enough control over the data flow. I did consider the other approach, but it seemed like more setup and complexity than I needed for this assignment. Since the main goal was to get a working solution within the given time, I chose the simpler approach rather than adding complexity that wasn't really necessary.
+
+2. One trade-off you made under the time limit, and what you’d do with a real week.
+The biggest trade-off was that I focused more on getting the main functionality working instead of spending a lot of time on edge cases and polishing. I wanted to make sure the complete flow was working first. If I had a full week, I would test it with more types of inputs, improve the error handling, optimize a few parts, and spend more time cleaning up the code and UI.
+
+3. Where did you use AI tools, and what did you personally verify or change afterward?
+I used AI mainly when I was stuck with implementation or needed help understanding an approach. I also used it for some debugging and to get ideas for improving the solution. But I didn't just copy everything it suggested. I ran the code myself, checked whether the output was actually correct, and changed parts that didn't fit my implementation. The final decisions about how I structured and used the solution were mine.
+
+# Vantair — Decisions
 ## 1. Why this approach?
 I chose a React + Vite single-page implementation because the product preview contains interactive UI states (switching between metrics, expanding an AI Insight anomaly detail pane, and flipping active automations) that benefit greatly from declarative rendering.
 
